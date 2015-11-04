@@ -8,5 +8,3 @@ RUN mkdir -p /opt/steamcmd &&\
     curl -s http://media.steampowered.com/installer/steamcmd_linux.tar.gz | tar -vxz
 
 WORKDIR /opt/steamcmd
-
-RUN ./steamcmd.sh
